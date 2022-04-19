@@ -34,24 +34,12 @@
                             "attr": "station",
                             "width": "40%",
                             "title": {
-                                "en": "Station UUID",
-                                "de": "Station UUID"
+                                "en": "Station Number",
+                                "de": "Messstellennummer"
                             },
                             "filter": true,
                             "sort": true,
                             "default": "a6ee8177-107b-47dd-bcfd-30960ccc6e9c"
-                        },
-                        {
-                            "type": "text",
-                            "attr": "name",
-                            "width": "40%",
-                            "title": {
-                                "en": "Name",
-                                "de": "Name"
-                            },
-                            "filter": false,
-                            "sort": false,
-                            "default": "Köln"
                         }
                     ]
                 }
