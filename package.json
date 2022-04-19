@@ -1,5 +1,5 @@
 {
-  "name": "iobroker.luftdaten",
+  "name": "iobroker.pegel-online",
   "version": "2.2.4",
   "description": "ioBroker Luftdaten Adapter",
   "author": {
@@ -13,17 +13,17 @@
       "email": "pix---@hotmail.com"
     }
   ],
-  "homepage": "https://github.com/klein0r/ioBroker.luftdaten",
+  "homepage": "https://github.com/noldeni/ioBroker.pegel-online",
   "license": "MIT",
   "keywords": [
     "ioBroker",
     "Smart Home",
     "home automation",
-    "luftdaten"
+    "pegel-online"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/klein0r/ioBroker.luftdaten"
+    "url": "git+https://github.com/noldeni/ioBroker.pegel-online"
   },
   "engines": {
     "node": ">=12.0.0"
@@ -78,7 +78,7 @@
     "release-major": "release-script major --yes"
   },
   "bugs": {
-    "url": "https://github.com/klein0r/ioBroker.luftdaten/issues"
+    "url": "https://github.com/noldeni/ioBroker.pegel-online/issues"
   },
   "readmeFilename": "README.md"
 }

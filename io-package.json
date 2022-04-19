@@ -1,6 +1,6 @@
 {
   "common": {
-    "name": "luftdaten",
+    "name": "pegel-online",
     "version": "2.2.4",
     "news": {
       "2.2.4": {
@@ -123,10 +123,10 @@
     ],
     "license": "MIT",
     "platform": "Javascript/Node.js",
-    "icon": "luftdaten.png",
+    "icon": "pegel-online.png",
     "extIcon": "https://raw.githubusercontent.com/klein0r/ioBroker.luftdaten/master/admin/luftdaten.png",
     "enabled": true,
-    "readme": "https://github.com/klein0r/ioBroker.luftdaten/blob/master/README.md",
+    "readme": "https://github.com/noldeni/ioBroker.pegel-online/blob/master/README.md",
     "loglevel": "info",
     "mode": "schedule",
     "allowInit": true,

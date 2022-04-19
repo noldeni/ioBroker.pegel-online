@@ -1,6 +1,6 @@
-![Logo](../../admin/luftdaten.png)
+![Logo](../../admin/pegel-online.png)
 
-# ioBroker.luftdaten
+# ioBroker.pegel-online
 
 ## Configuration
 
