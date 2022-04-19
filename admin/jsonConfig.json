@@ -20,66 +20,38 @@
         },
         "_advanced": {
             "type": "panel",
-            "label": "Sensors",
+            "label": "Stations",
             "items": {
                 "sensors": {
                     "type": "table",
                     "sm": 12,
                     "md": 12,
                     "lg": 12,
-                    "label": "Sensors",
+                    "label": "Stations",
                     "items": [
+                        {
+                            "type": "text",
+                            "attr": "station",
+                            "width": "40%",
+                            "title": {
+                                "en": "Station UUID",
+                                "de": "Station UUID"
+                            },
+                            "filter": true,
+                            "sort": true,
+                            "default": "a6ee8177-107b-47dd-bcfd-30960ccc6e9c"
+                        },
                         {
                             "type": "text",
                             "attr": "name",
                             "width": "40%",
                             "title": {
-                                "en": "Sensor Name",
-                                "de": "Sensorname"
-                            },
-                            "filter": true,
-                            "sort": true,
-                            "default": "My City"
-                        },
-                        {
-                            "type": "select",
-                            "options": [
-                                {
-                                    "label": {
-                                        "en": "Remote",
-                                        "de": "Remote"
-                                    },
-                                    "value": "remote"
-                                },
-                                {
-                                    "label": {
-                                        "en": "Local",
-                                        "de": "Lokal"
-                                    },
-                                    "value": "local"
-                                }
-                            ],
-                            "attr": "type",
-                            "width": "20%",
-                            "title": {
-                                "en": "Sensor Type",
-                                "de": "Sensorart"
+                                "en": "Name",
+                                "de": "Name"
                             },
                             "filter": false,
                             "sort": false,
-                            "default": "remote"
-                        },
-                        {
-                            "type": "text",
-                            "attr": "identifier",
-                            "width": "40%",
-                            "title": {
-                                "en": "Sensor Identifier",
-                                "de": "Sensorkennung"
-                            },
-                            "filter": false,
-                            "sort": false,
-                            "default": ""
+                            "default": "Köln"
                         }
                     ]
                 }
