@@ -1,0 +1,138 @@
+{
+    "i18n": true,
+    "type": "tabs",
+    "items": {
+        "_options": {
+            "type": "panel",
+            "label": "Options",
+            "items": {
+                "requestTimeout": {
+                    "type": "number",
+                    "min": 1,
+                    "max": 120,
+                    "sm": 12,
+                    "md": 6,
+                    "lg": 6,
+                    "label": "Request Timeout",
+                    "help": "in Seconds"
+                },
+                "_ioBrokerKursBanner": {
+                    "newLine": true,
+                    "type": "staticImage",
+                    "sm": 12,
+                    "md": 6,
+                    "lg": 6,
+                    "href": "https://haus-automatisierung.com/iobroker-kurs/?refid=iobroker-luftdaten",
+                    "src": "https://haus-automatisierung.com/images/ads/ioBroker-Kurs.png"
+                }
+            }
+        },
+        "_advanced": {
+            "type": "panel",
+            "label": "Sensors",
+            "items": {
+                "sensors": {
+                    "type": "table",
+                    "sm": 12,
+                    "md": 12,
+                    "lg": 12,
+                    "label": "Sensors",
+                    "items": [
+                        {
+                            "type": "text",
+                            "attr": "name",
+                            "width": "40%",
+                            "title": {
+                                "en": "Sensor Name",
+                                "de": "Sensorname",
+                                "ru": "Имя датчика",
+                                "pt": "Nome do Sensor",
+                                "nl": "Sensornaam:",
+                                "fr": "Nom du capteur",
+                                "it": "Nome del sensore",
+                                "es": "Nombre del sensor",
+                                "pl": "Nazwa czujnika",
+                                "zh-cn": "传感器名称"
+                            },
+                            "filter": true,
+                            "sort": true,
+                            "default": "My City"
+                        },
+                        {
+                            "type": "select",
+                            "options": [
+                                {
+                                    "label": {
+                                        "en": "Remote",
+                                        "de": "Remote",
+                                        "ru": "Дистанционный пульт",
+                                        "pt": "Controlo remoto",
+                                        "nl": "Afgelegen",
+                                        "fr": "Éloigné",
+                                        "it": "A distanza",
+                                        "es": "Remoto",
+                                        "pl": "Zdalny",
+                                        "zh-cn": "远程"
+                                    },
+                                    "value": "remote"
+                                },
+                                {
+                                    "label": {
+                                        "en": "Local",
+                                        "de": "Lokal",
+                                        "ru": "Местный",
+                                        "pt": "Local",
+                                        "nl": "Lokaal",
+                                        "fr": "Local",
+                                        "it": "Locale",
+                                        "es": "Local",
+                                        "pl": "Lokalny",
+                                        "zh-cn": "本地"
+                                    },
+                                    "value": "local"
+                                }
+                            ],
+                            "attr": "type",
+                            "width": "20%",
+                            "title": {
+                                "en": "Sensor Type",
+                                "de": "Sensorart",
+                                "ru": "Тип датчика",
+                                "pt": "Tipo de Sensor",
+                                "nl": "Sensortype:",
+                                "fr": "Type de capteur",
+                                "it": "Tipo di sensore",
+                                "es": "Tipo de sensor",
+                                "pl": "Typ czujnika",
+                                "zh-cn": "传感器类型"
+                            },
+                            "filter": false,
+                            "sort": false,
+                            "default": "remote"
+                        },
+                        {
+                            "type": "text",
+                            "attr": "identifier",
+                            "width": "40%",
+                            "title": {
+                                "en": "Sensor Identifier",
+                                "de": "Sensorkennung",
+                                "ru": "Идентификатор датчика",
+                                "pt": "Identificador de Sensor",
+                                "nl": "Sensor-ID",
+                                "fr": "Identificateur de capteur",
+                                "it": "Identificatore del sensore",
+                                "es": "Identificador de sensor",
+                                "pl": "Identyfikator czujnika",
+                                "zh-cn": "传感器标识符"
+                            },
+                            "filter": false,
+                            "sort": false,
+                            "default": ""
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
