@@ -1,18 +1,11 @@
 {
   "name": "iobroker.pegel-online",
-  "version": "2.2.4",
-  "description": "ioBroker Luftdaten Adapter",
+  "version": "1.0.0",
+  "description": "ioBroker Pegel Online Adapter",
   "author": {
-    "name": "Matthias Kleine",
-    "email": "info@haus-automatisierung.com",
-    "url": "https://haus-automatisierung.com/"
+    "name": "Ingo Nolden",
+    "email": "dev@nolden.org"
   },
-  "contributors": [
-    {
-      "name": "Pix",
-      "email": "pix---@hotmail.com"
-    }
-  ],
   "homepage": "https://github.com/noldeni/ioBroker.pegel-online",
   "license": "MIT",
   "keywords": [

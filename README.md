@@ -1,30 +1,15 @@
-![Logo](admin/luftdaten.png)
+![Logo](admin/pegel-online.png)
 
-# ioBroker.luftdaten
+# ioBroker.pegel-online
 
-[![NPM version](http://img.shields.io/npm/v/iobroker.luftdaten.svg)](https://www.npmjs.com/package/iobroker.luftdaten)
-[![Downloads](https://img.shields.io/npm/dm/iobroker.luftdaten.svg)](https://www.npmjs.com/package/iobroker.luftdaten)
-[![Stable](http://iobroker.live/badges/luftdaten-stable.svg)](http://iobroker.live/badges/luftdaten-stable.svg)
-[![installed](http://iobroker.live/badges/luftdaten-installed.svg)](http://iobroker.live/badges/luftdaten-installed.svg)
-[![Dependency Status](https://img.shields.io/david/klein0r/iobroker.luftdaten.svg)](https://david-dm.org/klein0r/iobroker.luftdaten)
-[![Known Vulnerabilities](https://snyk.io/test/github/klein0r/ioBroker.luftdaten/badge.svg)](https://snyk.io/test/github/klein0r/ioBroker.luftdaten)
-![Test and Release](https://github.com/noldeni/ioBroker.pegel-online/workflows/Test%20and%20Release/badge.svg)
-
-[![NPM](https://nodei.co/npm/iobroker.luftdaten.png?downloads=true)](https://nodei.co/npm/iobroker.luftdaten/)
-
-This adapter adds "luftdaten.info" sensor data to your ioBroker installation.
-You can decide if you want to add a local sensor by ip or if you just want to use the API of lufdaten.info to get the data of another sensor.
-
-## Sponsored by
-
-[![ioBroker Master Kurs](https://haus-automatisierung.com/images/ads/ioBroker-Kurs.png)](https://haus-automatisierung.com/iobroker-kurs/?refid=iobroker-luftdaten)
+This adapter adds "pegel-online" sensor data to your ioBroker installation.
 
 ## Installation
 
 Please use the "adapter list" in ioBroker to install a stable version of this adapter. You can also use the CLI to install this adapter:
 
 ```
-iobroker add luftdaten
+iobroker add pegel-online
 ```
 
 ## Documentation
@@ -43,36 +28,15 @@ iobroker add luftdaten
   Placeholder for the next version (at the beginning of the line):
   ### **WORK IN PROGRESS**
 -->
-### 2.2.4 (2022-04-14)
+### 1.0.0 **WORK IN PROGRESS** (2022-04-19)
 
-* (klein0r) Abort HTTP requests if running too long
-
-### 2.2.3 (2022-04-11)
-
-* (klein0r) Always stop instance when tasks are completed
-* (klein0r) Updated log messages
-
-### 2.2.2 (2022-03-14)
-
-* (klein0r) Bugfix: Requested local sensors with https instead of http
-
-### 2.2.1 (2022-03-14)
-
-* (klein0r) Do not delete sensors on http problems
-
-### 2.2.0 (2022-03-14)
-
-* (klein0r) Added documentation
-* (klein0r) Added hint for Admin 4 configuration
-* (klein0r) Updated state roles
-* (klein0r) Updated debug messages to provide more information
-* (klein0r) Updated dependencies
+* (noldeni) Currently work in progress. No release yet.
 
 ## License
 
 The MIT License (MIT)
 
-Copyright (c) 2022 Matthias Kleine <info@haus-automatisierung.com>
+Copyright (c) 2022 Ingo Nolden <dev@nolden.org>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
